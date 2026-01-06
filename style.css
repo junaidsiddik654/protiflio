@@ -12,7 +12,8 @@ border-radius: 5px;
 font-size: 20px;
 font-weight: bold;
 color: white;
-/* cursor: alias; */
+cursor: pointer;
+
 
 }
 
@@ -24,6 +25,9 @@ color: white;
 header{
     background-color:#FFF8F3;
     padding-top: 50px;
+    background: url(Devloper.png);
+    background-repeat: no-repeat;
+    
 }
 
 
@@ -63,5 +67,39 @@ nav .menu a {
     text-decoration: none;
 }
 
+#banner {
+    /* border: 1px solid black; */
+    margin: 47px 38px 0 230px; /* আপনার প্রয়োজন অনুযায়ী ঠিক আছে */
+    
+    
+}
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: semi-bold;
+    color:#474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
 
-
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+#banner .banner-content{
+    max-width:540px;
+}
+#banner .banner-image img{
+    max-width: 540px;
+}
