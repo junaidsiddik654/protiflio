@@ -1,0 +1,67 @@
+
+/* shered code */
+.front-open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+.btn{
+
+background-color: #FD6E0A;
+border-style: none;
+padding: 18px 35px;
+border-radius: 5px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+/* cursor: alias; */
+
+}
+
+
+
+
+
+/* our code */
+header{
+    background-color:#FFF8F3;
+    padding-top: 50px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+nav{
+    width: 71%;
+    max-width: 1366px;
+    
+   
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{ font-size: 45px;
+font-weight: 900;
+}
+.color{
+    color: #FD6E0A;
+}
+
+nav .menu {
+
+    display: flex;
+list-style-type: none;
+gap: 51px;
+align-items: center;
+}
+
+nav .menu a {
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+
+
