@@ -14,10 +14,22 @@ font-weight: bold;
 color: white;
 cursor: pointer;
 
+}
+.section-heading{
+    max-width: 825px;
+    text-align: center;
 
 }
-
-
+.section-heading h2
+{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.para {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
 
 
 
@@ -102,4 +114,31 @@ nav .menu a {
 }
 #banner .banner-image img{
     max-width: 540px;
+}
+
+#about{
+    padding-top: 130px;
+
+}
+#about .about-continer{
+    width: 71%;
+    max-width: 1366px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 130px 155px;
+}
+.info-card {
+    display: flex;
+    justify-content: space-around;
+
+}
+.info-card p{
+    font-size: 20px;
+    color: #757575;
+
+}
+.info-card h4{
+    font-size: 20px;
+    color: #000000;
 }
